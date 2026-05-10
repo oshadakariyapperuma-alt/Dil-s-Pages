@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="locked">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="heart-loader"></div>
+        <p>Loading our memories...</p>
+    </div>
+
+    <!-- Login Screen -->
+    <div id="login-screen">
+        <div class="login-box">
+            <h2>Welcome My Love ❤️</h2>
+            <p>Please log in to enter our world</p>
+            <div class="input-group">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="username" placeholder="Username" autocomplete="off">
+            </div>
+            <div class="input-group">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            <p id="login-hint" class="hidden">Hint: Your birthday date 💕</p>
+            <button id="login-btn">Unlock My Heart 🔓</button>
+        </div>
+    </div>
+
+    <!-- Floating Hearts Container -->
+    <div id="floating-hearts"></div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 id="typewriter"></h1>
+            <p class="fade-in-text">You are my today and all of my tomorrows.</p>
+            <a href="#memories" class="scroll-down">
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </div>
+        <div class="hero-overlay"></div>
+    </header>
+
+    <!-- Our Memories Section -->
+    <section id="memories" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Our Beautiful Memories 📸</h2>
+            <p class="section-subtitle reveal">Every moment with you is a treasure.</p>
+
+            <div class="gallery">
+                <!-- Our Photos -->
+                <div class="gallery-item reveal">
+                    <div class="polaroid">
+                        <img src="7d380e3a-40b8-4e00-9f0c-cd57170674f4.jpg" alt="Memory 1">
+                        <div class="caption">The day we met...</div>
+                    </div>
+                </div>
+                <div class="gallery-item reveal">
+                    <div class="polaroid">
+                        <img src="92e10322-854d-4f23-a665-f807c32be2a7.jpg" alt="Memory 2">
+                        <div class="caption">Our first trip</div>
+                    </div>
+                </div>
+                <div class="gallery-item reveal">
+                    <div class="polaroid">
+                        <img src="f977d153-4816-4792-8ea1-ed9bba5e7c9d.jpg" alt="Memory 3">
+                        <div class="caption">Just us ❤️</div>
+                    </div>
+                </div>
+                <div class="gallery-item reveal">
+                    <div class="polaroid">
+                        <img src="20794043-bee1-4ee8-91af-87427f39f5ac.jpg" alt="Memory 4">
+                        <div class="caption">Forever and always</div>
+                    </div>
+                </div>
+                <div class="gallery-item reveal">
+                    <div class="polaroid">
+                        <img src="369d2733-d847-4cea-874d-9e4281030da6.jpg" alt="Memory 5">
+                        <div class="caption">My everything ✨</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reasons I Love You Section -->
+    <section class="section reasons">
+        <div class="container">
+            <h2 class="section-title reveal">Reasons I Love You ✨</h2>
+
+            <div class="reasons-grid">
+                <div class="reason-card reveal">
+                    <div class="icon"><i class="fa-solid fa-face-smile-beam"></i></div>
+                    <h3>Your Smile</h3>
+                    <p>Your smile lights up my entire world. It's the most beautiful thing I've ever seen.</p>
+                </div>
+                <div class="reason-card reveal">
+                    <div class="icon"><i class="fa-solid fa-heart"></i></div>
+                    <h3>Your Kind Heart</h3>
+                    <p>The way you care for others and your gentle soul makes me fall for you more every day.</p>
+                </div>
+                <div class="reason-card reveal">
+                    <div class="icon"><i class="fa-solid fa-star"></i></div>
+                    <h3>Everything</h3>
+                    <p>I don't need a specific reason. I just love everything about you, perfectly imperfect.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Message Section -->
+    <section class="section letter-section">
+        <div class="container">
+            <div class="letter reveal">
+                <div class="wax-seal">❤️</div>
+                <h2>My Dearest,</h2>
+                <p>
+                    I made this little space on the internet just for you.
+                    No matter where we are, I want you to know how much you mean to me.
+                    Thank you for being my rock, my best friend, and the love of my life.
+                    I promise to always be by your side.
+                </p>
+                <p class="signature">- With all my love</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with <i class="fa-solid fa-heart pulse"></i> for you</p>
+
+        <!-- Music Player -->
+        <div class="music-player">
+            <button id="play-music" title="Play our song">
+                <i class="fa-solid fa-music"></i>
+            </button>
+            <audio id="bg-music" src="leberch-love-516820.mp3" loop preload="auto"></audio>
+        </div>
+    </footer>
+
+    <!-- Secret Gift Button -->
+    <button id="secret-gift-btn" title="A Secret Surprise 🎁">
+        <i class="fa-solid fa-gift"></i>
+    </button>
+
+    <!-- Birthday Modal -->
+    <div id="birthday-modal" class="hidden">
+        <button id="close-modal"><i class="fa-solid fa-xmark"></i></button>
+        
+        <!-- Countdown View -->
+        <div id="countdown-view" class="modal-content">
+            <i class="fa-solid fa-lock lock-icon"></i>
+            <h2>Patience, My Love...</h2>
+            <p>A special surprise unlocks on your birthday.</p>
+            <div id="timer" class="timer-container">
+                <div class="time-box"><span id="days">00</span><p>Days</p></div>
+                <div class="time-box"><span id="hours">00</span><p>Hours</p></div>
+                <div class="time-box"><span id="minutes">00</span><p>Mins</p></div>
+                <div class="time-box"><span id="seconds">00</span><p>Secs</p></div>
+            </div>
+        </div>
+
+        <!-- Birthday Wish View -->
+        <div id="birthday-view" class="modal-content hidden">
+            <h2 class="birthday-title">Happy Birthday, Dilnithi! 🎂🎉</h2>
+            <div class="birthday-card">
+                <p>To the girl who stole my heart,</p>
+                <p>Wishing you the most magical and happiest birthday ever! 
+                You are my greatest gift, and today we celebrate YOU.</p>
+                <p>May all your dreams come true. I love you more than words can say.</p>
+                <p class="signature">Forever yours ❤️</p>
+            </div>
+        </div>
+        
+        <div id="confetti-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
